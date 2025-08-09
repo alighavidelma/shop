@@ -2,125 +2,133 @@
   "products": [
     {
       "id": "1",
-      "title": "گوشی موبایل Samsung Galaxy S24",
-      "price": 45000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "electronics",
-      "description": "یک گوشی پرچمدار با کیفیت بالا."
+      "title": "کفش ورزشی نایک",
+      "price": 1200000,
+      "category": "کفش",
+      "image": "https://dummyimage.com/300x200/000/fff&text=Nike+Shoes",
+      "description": "کفش اورجینال نایک مناسب دویدن و ورزش روزمره."
     },
     {
       "id": "2",
-      "title": "لپ‌تاپ MacBook Air M2",
-      "price": 65000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "electronics",
-      "description": "لپ‌تاپ سبک و قدرتمند اپل."
+      "title": "کیف چرمی مردانه",
+      "price": 850000,
+      "category": "کیف",
+      "image": "https://dummyimage.com/300x200/444/fff&text=Leather+Bag",
+      "description": "کیف دستی چرمی با کیفیت بالا و طراحی کلاسیک."
     },
     {
       "id": "3",
-      "title": "کتونی Nike Air Max",
-      "price": 2500000,
-      "image": "https://via.placeholder.com/200",
-      "category": "fashion",
-      "description": "کتونی اسپرت و راحت."
+      "title": "ساعت مچی دیجیتال",
+      "price": 450000,
+      "category": "ساعت",
+      "image": "https://dummyimage.com/300x200/888/fff&text=Digital+Watch",
+      "description": "ساعت مچی دیجیتال ضد آب با امکانات متعدد."
     },
     {
       "id": "4",
-      "title": "تلویزیون LG OLED 55 اینچ",
-      "price": 35000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "electronics",
-      "description": "تلویزیون هوشمند با کیفیت تصویر 4K."
+      "title": "پیراهن مردانه",
+      "price": 350000,
+      "category": "لباس",
+      "image": "https://dummyimage.com/300x200/222/fff&text=Men+Shirt",
+      "description": "پیراهن نخی با طرح ساده و شیک."
     },
     {
       "id": "5",
-      "title": "ساعت مچی Casio G-Shock",
-      "price": 1500000,
-      "image": "https://via.placeholder.com/200",
-      "category": "fashion",
-      "description": "ساعت مچی مقاوم و شیک."
+      "title": "هدفون بی‌سیم",
+      "price": 650000,
+      "category": "هدفون",
+      "image": "https://dummyimage.com/300x200/555/fff&text=Wireless+Headphones",
+      "description": "هدفون بی‌سیم با کیفیت صدای عالی و باتری قوی."
     },
     {
       "id": "6",
-      "title": "مبل راحتی 7 نفره",
-      "price": 12000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "home",
-      "description": "مبل راحتی مناسب پذیرایی."
+      "title": "کتانی آدیداس",
+      "price": 1100000,
+      "category": "کفش",
+      "image": "https://dummyimage.com/300x200/999/fff&text=Adidas+Sneakers",
+      "description": "کتانی راحت و سبک آدیداس برای استفاده روزانه."
     },
     {
       "id": "7",
-      "title": "دوچرخه کوهستان Giant",
-      "price": 8000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "sports",
-      "description": "دوچرخه حرفه‌ای کوهستان."
+      "title": "کوله پشتی کوهنوردی",
+      "price": 980000,
+      "category": "کوله",
+      "image": "https://dummyimage.com/300x200/666/fff&text=Hiking+Backpack",
+      "description": "کوله پشتی ضد آب مناسب سفر و کوهنوردی."
     },
     {
       "id": "8",
-      "title": "کیف چرمی مردانه",
-      "price": 950000,
-      "image": "https://via.placeholder.com/200",
-      "category": "fashion",
-      "description": "کیف دستی چرمی با کیفیت بالا."
+      "title": "عینک آفتابی",
+      "price": 250000,
+      "category": "عینک",
+      "image": "https://dummyimage.com/300x200/333/fff&text=Sunglasses",
+      "description": "عینک آفتابی با محافظ UV400 و فریم سبک."
     },
     {
       "id": "9",
-      "title": "گوشی موبایل iPhone 15 Pro",
-      "price": 62000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "electronics",
-      "description": "پرچمدار جدید اپل با چیپ A17."
+      "title": "شلوار جین مردانه",
+      "price": 420000,
+      "category": "لباس",
+      "image": "https://dummyimage.com/300x200/777/fff&text=Men+Jeans",
+      "description": "شلوار جین با کیفیت بالا و رنگ ثابت."
     },
     {
       "id": "10",
-      "title": "یخچال فریزر Samsung Side-by-Side",
-      "price": 42000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "home",
-      "description": "یخچال ساید بای ساید هوشمند."
+      "title": "کیف لپ‌تاپ",
+      "price": 600000,
+      "category": "کیف",
+      "image": "https://dummyimage.com/300x200/aaa/000&text=Laptop+Bag",
+      "description": "کیف مقاوم برای حمل و محافظت از لپ‌تاپ."
     },
     {
       "id": "11",
-      "title": "کت شلوار مردانه",
-      "price": 3500000,
-      "image": "https://via.placeholder.com/200",
-      "category": "fashion",
-      "description": "کت و شلوار رسمی و شیک."
+      "title": "کت چرمی",
+      "price": 1500000,
+      "category": "لباس",
+      "image": "https://dummyimage.com/300x200/555/000&text=Leather+Jacket",
+      "description": "کت چرمی با طراحی مدرن و کیفیت ممتاز."
     },
     {
       "id": "12",
-      "title": "هدفون Sony WH-1000XM5",
-      "price": 18000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "electronics",
-      "description": "هدفون بی‌سیم با حذف نویز."
+      "title": "کفش رسمی مردانه",
+      "price": 900000,
+      "category": "کفش",
+      "image": "https://dummyimage.com/300x200/222/000&text=Formal+Shoes",
+      "description": "کفش رسمی مناسب مجالس و محل کار."
     },
     {
       "id": "13",
-      "title": "تردمیل خانگی",
-      "price": 9000000,
-      "image": "https://via.placeholder.com/200",
-      "category": "sports",
-      "description": "تردمیل مناسب استفاده خانگی."
+      "title": "هدفون گیمینگ",
+      "price": 780000,
+      "category": "هدفون",
+      "image": "https://dummyimage.com/300x200/999/000&text=Gaming+Headset",
+      "description": "هدفون گیمینگ با میکروفون و صدای 7.1 Surround."
     },
     {
       "id": "14",
-      "title": "میز ناهارخوری 6 نفره",
-      "price": 7500000,
-      "image": "https://via.placeholder.com/200",
-      "category": "home",
-      "description": "میز چوبی با طراحی مدرن."
+      "title": "کتانی ورزشی پوما",
+      "price": 1050000,
+      "category": "کفش",
+      "image": "https://dummyimage.com/300x200/444/000&text=Puma+Shoes",
+      "description": "کتانی ورزشی سبک و مناسب پیاده‌روی."
     },
     {
       "id": "15",
-      "title": "کفش رسمی مردانه",
-      "price": 2200000,
-      "image": "https://via.placeholder.com/200",
-      "category": "fashion",
-      "description": "کفش چرمی رسمی مناسب مهمانی و محل کار."
+      "title": "کمربند چرمی",
+      "price": 200000,
+      "category": "اکسسوری",
+      "image": "https://dummyimage.com/300x200/222/fff&text=Leather+Belt",
+      "description": "کمربند چرمی با سگک فلزی ضد زنگ."
     }
   ],
   "users": [],
-  "cart": []
+  "cart": [
+    {
+      "id": "3",
+      "title": "ساعت مچی دیجیتال",
+      "price": 450000,
+      "image": "https://dummyimage.com/300x200/888/fff&text=Digital+Watch",
+      "quantity": 1
+    }
+  ]
 }
