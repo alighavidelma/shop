@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { CartContex } from "../context/CartContext";
 
 interface Product {
   id: number;
@@ -13,6 +14,8 @@ interface Product {
 export default () => {
   const { id } = useParams();
   const [product, setProduct] = useState<Product | null>(null);
+
+  const { addToCart } = useContext(CartContex);
 
   useEffect(() => {
     fetch(`http://localhost:4000/products/${id}`)
@@ -32,7 +35,18 @@ export default () => {
       <p className="text-gray-600 mb-2">{product.category}</p>
       <p className="text-lg font-semibold mb-4">{product.price} تومان</p>
       <p className="mb-4">{product.description}</p>
-      <button className="bg-blue-500 text-white px-4 py-2 rounded">
+      <button
+        onClick={() => {
+          addToCart({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            image: product.image,
+            quantity: 1,
+          });
+        }}
+        className="bg-blue-500 text-white px-4 py-2 rounded"
+      >
         افزودن به سبد خرید
       </button>
     </div>
