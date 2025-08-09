@@ -1,4 +1,126 @@
 {
-  "products": [],
-  "users": []
+  "products": [
+    {
+      "id": 1,
+      "title": "گوشی موبایل Samsung Galaxy S24",
+      "price": 45000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "electronics",
+      "description": "یک گوشی پرچمدار با کیفیت بالا."
+    },
+    {
+      "id": 2,
+      "title": "لپ‌تاپ MacBook Air M2",
+      "price": 65000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "electronics",
+      "description": "لپ‌تاپ سبک و قدرتمند اپل."
+    },
+    {
+      "id": 3,
+      "title": "کتونی Nike Air Max",
+      "price": 2500000,
+      "image": "https://via.placeholder.com/200",
+      "category": "fashion",
+      "description": "کتونی اسپرت و راحت."
+    },
+    {
+      "id": 4,
+      "title": "تلویزیون LG OLED 55 اینچ",
+      "price": 35000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "electronics",
+      "description": "تلویزیون هوشمند با کیفیت تصویر 4K."
+    },
+    {
+      "id": 5,
+      "title": "ساعت مچی Casio G-Shock",
+      "price": 1500000,
+      "image": "https://via.placeholder.com/200",
+      "category": "fashion",
+      "description": "ساعت مچی مقاوم و شیک."
+    },
+    {
+      "id": 6,
+      "title": "مبل راحتی 7 نفره",
+      "price": 12000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "home",
+      "description": "مبل راحتی مناسب پذیرایی."
+    },
+    {
+      "id": 7,
+      "title": "دوچرخه کوهستان Giant",
+      "price": 8000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "sports",
+      "description": "دوچرخه حرفه‌ای کوهستان."
+    },
+    {
+      "id": 8,
+      "title": "کیف چرمی مردانه",
+      "price": 950000,
+      "image": "https://via.placeholder.com/200",
+      "category": "fashion",
+      "description": "کیف دستی چرمی با کیفیت بالا."
+    },
+    {
+      "id": 9,
+      "title": "گوشی موبایل iPhone 15 Pro",
+      "price": 62000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "electronics",
+      "description": "پرچمدار جدید اپل با چیپ A17."
+    },
+    {
+      "id": 10,
+      "title": "یخچال فریزر Samsung Side-by-Side",
+      "price": 42000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "home",
+      "description": "یخچال ساید بای ساید هوشمند."
+    },
+    {
+      "id": 11,
+      "title": "کت شلوار مردانه",
+      "price": 3500000,
+      "image": "https://via.placeholder.com/200",
+      "category": "fashion",
+      "description": "کت و شلوار رسمی و شیک."
+    },
+    {
+      "id": 12,
+      "title": "هدفون Sony WH-1000XM5",
+      "price": 18000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "electronics",
+      "description": "هدفون بی‌سیم با حذف نویز."
+    },
+    {
+      "id": 13,
+      "title": "تردمیل خانگی",
+      "price": 9000000,
+      "image": "https://via.placeholder.com/200",
+      "category": "sports",
+      "description": "تردمیل مناسب استفاده خانگی."
+    },
+    {
+      "id": 14,
+      "title": "میز ناهارخوری 6 نفره",
+      "price": 7500000,
+      "image": "https://via.placeholder.com/200",
+      "category": "home",
+      "description": "میز چوبی با طراحی مدرن."
+    },
+    {
+      "id": 15,
+      "title": "کفش رسمی مردانه",
+      "price": 2200000,
+      "image": "https://via.placeholder.com/200",
+      "category": "fashion",
+      "description": "کفش چرمی رسمی مناسب مهمانی و محل کار."
+    }
+  ],
+  "users": [],
+  "cart": []
 }
