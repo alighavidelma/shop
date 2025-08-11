@@ -6,23 +6,25 @@ import {
   type ReactNode,
 } from "react";
 
-type User = {
+import { v4 } from "uuid";
+
+interface User {
   id: string;
   name: string;
   email: string;
-  token: string;
-};
+}
 
-type AuthContextType = {
+interface AuthContextType {
   user: User | null;
   token: string | null;
-  login: (user: User, token: string) => void;
+  register: (name: string, email: string, password: string) => Promise<void>;
+  login: (email: string, password: string) => Promise<void>;
   logout: () => void;
-  setUser: (user: User | null) => void;
-  setToken: (token: string | null) => void;
-};
+}
 
-const AuthContext = createContext<AuthContextType | undefined>(undefined);
+export const AuthContext = createContext<AuthContextType>(
+  {} as AuthContextType
+);
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
@@ -37,13 +39,45 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     }
   }, []);
 
-  const login = (userData: User, userToken: string) => {
-    setUser(userData);
-    setToken(userToken);
-    localStorage.setItem("user", JSON.stringify(userData));
-    localStorage.setItem("token", userToken);
+  //register
+  const register = async (name: string, email: string, password: string) => {
+    const res = await fetch("http://localhost:4000/users", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, password }),
+    });
+
+    if (!res.ok) throw new Error("ثبت نام ناموفق بود");
+    const newUser = await res.json();
+    const newToken = v4();
+
+    setUser(newUser);
+    setToken(newToken);
+
+    localStorage.setItem("user", JSON.stringify(newUser));
+    localStorage.setItem("token", newToken);
   };
 
+  // login
+
+  const login = async (email: string, password: string) => {
+    const res = await fetch(
+      `http://localhost:4000/users?email=${email}&password=${password}`
+    );
+    const data = await res.json();
+
+    if (data.length === 0) throw new Error("ایمیل یا رمز اشتباه است");
+
+    const loggedUser = data[0];
+    const newToken = v4();
+
+    setUser(loggedUser);
+    setToken(newToken);
+    localStorage.setItem("user", JSON.stringify(loggedUser));
+    localStorage.setItem("token", newToken);
+  };
+
+  //logout
   const logout = () => {
     setUser(null);
     setToken(null);
@@ -57,8 +91,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         token,
         login,
         logout,
-        setUser,
-        setToken,
+
+        register,
       }}
     >
       {children}
